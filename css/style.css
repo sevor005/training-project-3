@@ -1,0 +1,158 @@
+body {
+  width: 1400px;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+ol, ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 984px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+/* Header==
+============================== */
+
+.header {
+  height: 230px;
+  width: 100%;
+  background-color: #dcdcdc;
+}
+
+.header__logo {
+  float: left;
+  margin-top: 65px;
+}
+
+.header__logo-img {
+  width: 100px;
+  height: 100px;
+  background-color: #777;
+  margin-right: 0;
+  float: left;
+}
+
+.header__logo_text {
+  float: right;
+  color: #777;
+}
+
+.header__logo-name {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 0.8;
+  margin: 8px 0 0 14px;
+}
+
+.header__logo-description {
+  margin: 12px 0 0 11px;
+}
+
+.header__communications {
+  float: right;
+  margin-top: 31px;
+  margin-right: 27px;
+  color: #767676;
+}
+
+.header__tel {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 40px;
+  margin-bottom: -9px;
+}
+
+.header__item {
+  text-align: right;
+  margin: 6px -17px 0 0;
+}
+
+.header__item-link {
+  font-weight: bold;
+  font-size: 24px;
+  color: #767676;
+  border-bottom: 2px dashed #767676;
+  margin-left: 30px;
+}
+
+.header__item-link:hover {
+  color: #a7a3a3;
+  border-color: #a7a3a3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
