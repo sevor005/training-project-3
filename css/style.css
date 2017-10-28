@@ -233,6 +233,93 @@ a:hover {
   padding-bottom: 220px;
 }
 
+.main__menu {
+  width: 100%;
+  height: 50px;
+  padding-top: 5px;
+}
+
+.main__link,
+.main__link_active {
+  color: #767676;
+  font-size: 14px;
+}
+
+.main__link {
+  text-decoration: underline;
+  padding-right: 18px;
+  position: relative;
+}
+
+.main__link:after {
+  content: "";
+  width: 1px;
+  height: 12px;
+  background-color: #767676;
+  transform: rotate(23deg);
+  position: absolute;
+  top: 4px;
+  right: 6px;
+}
+
+/* Sidebar===
+==============================*/
+.sidebar {
+  float: left;
+  margin-top: -13px;
+}
+
+.sidebar__menu{
+  padding: 5px 0;
+}
+
+.sidebar__list {
+  padding-left: 20px;
+}
+
+.sidebar__list-item {
+  padding: 1px 0;
+  position: relative;
+  list-style: none;
+}
+
+.sidebar__list-item:before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #767676;
+  position: absolute;
+  top: 12px;
+  left: -11px;
+}
+
+.sidebar__product-categories-active {
+  text-decoration: underline;
+}
+
+.sidebar__product-categories,
+.sidebar__product-categories-active {
+  font-size: 18px;
+  color: #767676;
+}
+
+.sidebar__list-link {
+  font-size: 14px;
+  text-decoration: none;
+  color: #767676;
+}
+
+.sidebar__list-link-active {
+  font-size: 14px;
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #767676;
+}
+
+/* Content===
+============================*/
+
 
 
 
