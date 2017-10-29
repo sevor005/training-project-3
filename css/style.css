@@ -113,10 +113,7 @@ a:hover {
 }
 
 .footer__copyright {
-  margin-bottom: 4px;
-}
-
-.footer__copyright-link {
+  padding-bottom: 4px;
   color: #fff;
 }
 
@@ -319,7 +316,74 @@ a:hover {
 
 /* Content===
 ============================*/
+.content {
+  width: 784px;
+  float: right;
+}
 
+/* Content__goods */
+.content__goods {
+  float: left;
+  height: 380px;
+  width: 250px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #dcdcdc;
+  margin: 0 15px 15px 0;
+}
+
+.content__goods:last-child {
+  margin-right: 0;
+}
+
+.content__goods-img {
+  width: 210px;
+  height: 209px;
+}
+
+.content__goods-text {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #767676;
+  line-height: 1;
+}
+
+.content__goods-block {
+  margin-top: 47px;
+}
+
+.content__goods-price {
+  float: left;
+  font-size: 28px;
+  font-weight: bold;
+  color: #444;
+}
+
+.content__goods-basket {
+  float: right;
+  width: 28px;
+  height: 21px;
+  margin: 11px 16px 0 0;
+  background: url("../design/basket.png") no-repeat;
+}
+
+/* Paginator */
+.paginator {
+  text-align: center;
+  color: #767676;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.paginator__list,
+.paginator__list-active {
+  padding: 0 8px;
+}
+
+.paginator__list-active {
+  font-size: 19px;
+  color: #000;
+}
 
 
 
