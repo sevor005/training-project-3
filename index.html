@@ -21,7 +21,7 @@
         <div class="header__tel">+7(499)777-77-77</div>
         <div class="header__tel">+7(499)777-77-77</div>
         <div class="header__feedback">
-          <a class="header__feedback-link" href="#">Обратная связь</a>
+          <label class="header__feedback-link" for="feedback-checkbox">Обратная связь</label>
         </div>
       </div>
     </div>
@@ -29,20 +29,22 @@
 
   <!-- Menu -->
   <div class="menu">
-    <div class="menu__item">
-      <a href="#" class="menu__link">Главная</a>
-    </div>
-    <div class="menu__item">
-      <a href="#" class="menu__link">Контакты</a>
-    </div>
-    <div class="menu__item">
-      <a href="#" class="menu__link">Доставка и оплата</a>
-    </div>
-    <div class="menu__item">
-      <a href="#" class="menu__link">Прайс-лист</a>
-    </div>
-    <div class="menu__item">
-      <a href="#" class="menu__link">Контакты</a>
+    <div class="wrapper">
+      <div class="menu__item">
+        <a href="#" class="menu__link">Главная</a>
+      </div>
+      <div class="menu__item">
+        <a href="#" class="menu__link">Контакты</a>
+      </div>
+      <div class="menu__item">
+        <a href="#" class="menu__link">Доставка и оплата</a>
+      </div>
+      <div class="menu__item">
+        <a href="#" class="menu__link">Прайс-лист</a>
+      </div>
+      <div class="menu__item">
+        <a href="#" class="menu__link">Контакты</a>
+      </div>
     </div>
   </div>
 
@@ -216,6 +218,31 @@
           <a class="footer__developer-link" href="#">Разработка сайта</a><br>
             компания «Пиксель Плюс» 
         </div>
+    </div>
+  </div>
+
+  <input type="checkbox" class="feedback-checkbox" id="feedback-checkbox">
+  <div class="dialog-overlay">
+    <div class="dialog">
+      <form action="" method="">
+        <div class="form__header">Обратная связь</div>
+  
+        <label for="input_name" class="form__text form__text_name">Ваше имя*</label>
+        <input type="text" name="" class="form__input" id="input_name">
+  
+        <label for="input_tel" class="form__text form__text_tel">Телефон*</label>
+        <input type="tel" name="" class="form__input" id="input_tel">
+  
+        <label for="input_email" class="form__text form__text_email"> Email*</label>
+        <input type="email" name="" class="form__input form__input_email" id="input_email"
+          placeholder="Поле обязательно для заполнения" required>
+  
+        <label for="textarea_message" class="form__text form__text_textarea">Сообщение</label>
+        <textarea name="" id="textarea_message" class="form__textarea"></textarea><br>
+  
+        <button class="form__btn" name="">Отправить</button>
+        <label class="close-button" for="feedback-checkbox"></label>
+      </form>
     </div>
   </div>
 </body>
